@@ -1,0 +1,17 @@
+body{
+    background-color: #111111;
+    color: aqua;
+}
+
+h1{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: pink;
+}
+
+.edit{
+    background-color: green;
+    font-size: 300px;
+}
