@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat";
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #400087 0.000%, #5812aa 20.000%, #7834c8 40.000%, #9c63e1 60.000%, #c09cf4 80.000%, #e0daff 100.000%);
+}
+
+#main_div {
+    border: 1px solid black;
+    padding: 20px;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#header {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+input {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+#add_button {
+    padding: 11px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#task_div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.newTask_class{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+}
