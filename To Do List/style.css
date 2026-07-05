@@ -10,6 +10,7 @@ body {
     font-family: "Montserrat";
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background: linear-gradient(180deg, #400087 0.000%, #5812aa 20.000%, #7834c8 40.000%, #9c63e1 60.000%, #c09cf4 80.000%, #e0daff 100.000%);

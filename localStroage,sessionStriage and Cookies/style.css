@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark{
+    background-color: #28282B;
+}
+
+.light{
+    background-color: white;
+}
+
+button{
+    padding: 10px 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(33, 202, 39);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}

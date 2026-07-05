@@ -29,3 +29,9 @@ reset_Button.addEventListener("click", function () {
     counter = 0;
 });
 
+
+// function greet(name){
+//     console.log(`Hello ${name}`);
+// }
+
+// setTimeout(greet,1000,"Priyanshu");
