@@ -15,10 +15,14 @@ btn.addEventListener("click", function () {
         body.classList.add("light");
 
         localStorage.setItem("theme", "light");
+
+        btn.textContent="Light theme"
     } else {
         body.classList.remove("light");
         body.classList.add("dark");
 
         localStorage.setItem("theme", "dark");
+
+        btn.textContent="Dark theme"
     }
 });
